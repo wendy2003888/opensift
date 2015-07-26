@@ -15,10 +15,13 @@
 #include <dirent.h>
 
 
+<<<<<<< HEAD
 #if __cplusplus
 extern "C" {
 #endif
 
+=======
+>>>>>>> upstream/master
 /* absolute value */
 #ifndef ABS
 #define ABS(x) ( ( (x) < 0 )? -(x) : (x) )
@@ -270,9 +273,12 @@ extern void vid_view( IplImage** imgs, int n, char* win_name );
 */
 extern int win_closed( char* name );
 
+<<<<<<< HEAD
 #if __cplusplus
 }
 #endif
 
 
+=======
+>>>>>>> upstream/master
 #endif

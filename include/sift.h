@@ -22,11 +22,14 @@
 
 #include "cxcore.h"
 
+<<<<<<< HEAD
 
 #if __cplusplus
 extern "C" {
 #endif
 
+=======
+>>>>>>> upstream/master
 /******************************** Structures *********************************/
 
 /** holds feature data relevant to detection */
@@ -152,10 +155,13 @@ extern int _sift_features( IplImage* img, struct feature** feat, int intvls,
 			   double sigma, double contr_thr, int curv_thr,
 			   int img_dbl, int descr_width, int descr_hist_bins );
 
+<<<<<<< HEAD
 
 
 #if __cplusplus
 }
 #endif
 
+=======
+>>>>>>> upstream/master
 #endif

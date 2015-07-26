@@ -10,5 +10,8 @@
 *.lai
 *.la
 *.a
+<<<<<<< HEAD
 
 *.DS_Store
+=======
+>>>>>>> upstream/master

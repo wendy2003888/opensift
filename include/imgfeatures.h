@@ -11,10 +11,13 @@
 
 #include "cxcore.h"
 
+<<<<<<< HEAD
 #if __cplusplus
 extern "C" {
 #endif
 
+=======
+>>>>>>> upstream/master
 /** FEATURE_OXFD <BR> FEATURE_LOWE */
 enum feature_type
   {
@@ -123,8 +126,11 @@ extern void draw_features( IplImage* img, struct feature* feat, int n );
 */
 extern double descr_dist_sq( struct feature* f1, struct feature* f2 );
 
+<<<<<<< HEAD
 #if __cplusplus
 }
 #endif
+=======
+>>>>>>> upstream/master
 
 #endif

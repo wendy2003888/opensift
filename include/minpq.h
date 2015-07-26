@@ -12,10 +12,14 @@
 
 #include <stdlib.h>
 
+<<<<<<< HEAD
 #if __cplusplus
 extern "C" {
 #endif
   
+=======
+
+>>>>>>> upstream/master
 /******************************* Defs and macros *****************************/
 
 /* initial # of priority queue elements for which to allocate space */
@@ -91,7 +95,11 @@ extern void* minpq_extract_min( struct min_pq* min_pq );
 */
 extern void minpq_release( struct min_pq** min_pq );
 
+<<<<<<< HEAD
 #if __cplusplus
 }
 #endif
+=======
+
+>>>>>>> upstream/master
 #endif

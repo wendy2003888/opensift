@@ -36,9 +36,15 @@ void fatal_error(char* format, ...)
   
   fprintf( stderr, "Error: ");
 
+<<<<<<< HEAD
   // va_start( ap, format );
   vfprintf( stderr, format, ap );
   // va_end( ap );
+=======
+  va_start( ap, format );
+  vfprintf( stderr, format, ap );
+  va_end( ap );
+>>>>>>> upstream/master
   fprintf( stderr, "\n" );
   abort();
 }

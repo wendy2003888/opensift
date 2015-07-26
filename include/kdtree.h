@@ -20,9 +20,12 @@
 
 #include "cxcore.h"
 
+<<<<<<< HEAD
 #if __cplusplus
 extern "C" {
 #endif
+=======
+>>>>>>> upstream/master
 
 /********************************* Structures ********************************/
 
@@ -111,8 +114,11 @@ extern int kdtree_bbf_spatial_knn( struct kd_node* kd_root,
 */
 extern void kdtree_release( struct kd_node* kd_root );
 
+<<<<<<< HEAD
 #if __cplusplus
 }
 #endif
+=======
+>>>>>>> upstream/master
 
 #endif

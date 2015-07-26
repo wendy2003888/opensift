@@ -11,10 +11,13 @@
 
 #include <cxcore.h>
 
+<<<<<<< HEAD
 #if __cplusplus
 extern "C" {
 #endif
 
+=======
+>>>>>>> upstream/master
 
 /********************************** Structures *******************************/
 
@@ -190,8 +193,11 @@ extern double homog_xfer_err( CvPoint2D64f pt, CvPoint2D64f mpt, CvMat* H );
 */
 extern CvPoint2D64f persp_xform_pt( CvPoint2D64f pt, CvMat* T );
 
+<<<<<<< HEAD
 #if __cplusplus
 }
 #endif
+=======
+>>>>>>> upstream/master
 
 #endif
